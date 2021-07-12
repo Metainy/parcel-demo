@@ -1,0 +1,22 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --no-source-maps",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-prettier": "^0.2.1",
+    "prettier": "^2.3.2",
+    "sass": "^1.35.2"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
+}
